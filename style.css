@@ -1,0 +1,15 @@
+.diceBox {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container > * {
+    display: inline-block;
+}
